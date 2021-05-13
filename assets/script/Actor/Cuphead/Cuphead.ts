@@ -83,6 +83,10 @@ export default class Cuphead extends Actor {
     this.facing = direction;
   }
 
+  enableCupheadControls() {
+    console.log('ligar');
+  }
+
   onBeginContact(
     contact: any,
     selfCollider: cc.Collider,

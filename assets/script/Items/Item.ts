@@ -31,7 +31,7 @@ export default abstract class Item extends cc.Component {
   public onLoad() {
     this.collisionBox = this.node.getComponent(cc.BoxCollider);
     this.itemCounter = cc
-      .find('Canvas/' + this.counterName)
+      .find('Canvas/Main Camera/' + this.counterName)
       .getComponent(ItemCounter);
   }
 
