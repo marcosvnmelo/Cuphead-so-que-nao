@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "b2cfab4e-38f6-481c-9ea4-2e4ef6df7afb",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 443,
+  "height": 341,
+  "platformSettings": {},
+  "subMetas": {
+    "player_ch_superII_ghost_lariat_0022": {
+      "ver": "1.0.4",
+      "uuid": "2bcb61bd-376f-4c57-ad45-781968732391",
+      "rawTextureUuid": "b2cfab4e-38f6-481c-9ea4-2e4ef6df7afb",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 443,
+      "height": 341,
+      "rawWidth": 443,
+      "rawHeight": 341,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

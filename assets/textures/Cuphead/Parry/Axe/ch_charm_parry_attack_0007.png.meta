@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "c852c0d0-77c4-4cd6-9bd2-b5fdb3e80ef9",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 128,
+  "height": 145,
+  "platformSettings": {},
+  "subMetas": {
+    "ch_charm_parry_attack_0007": {
+      "ver": "1.0.4",
+      "uuid": "a25aa45c-4824-4af5-94d3-ce3ca57c7c0a",
+      "rawTextureUuid": "c852c0d0-77c4-4cd6-9bd2-b5fdb3e80ef9",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 128,
+      "height": 145,
+      "rawWidth": 128,
+      "rawHeight": 145,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
