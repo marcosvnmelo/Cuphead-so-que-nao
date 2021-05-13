@@ -18,8 +18,6 @@ export default class SharkCounter extends ItemCounter {
     if (this.count <= this.max) {
       this.count++;
       this.sharkLabel.string = 'x ' + this.count;
-
-      this.node.getComponent(cc.AudioSource).play();
     }
   }
 

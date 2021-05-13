@@ -26,10 +26,12 @@ export default class InGameKeyboardController extends KeyboardController {
       case cc.macro.KEY.space:
         this.cuphead.jump();
         break;
-      case cc.macro.KEY.a || cc.macro.KEY.left:
+      case cc.macro.KEY.a:
+      case cc.macro.KEY.left:
         this.movePressedButtons['LEFT'] = true;
         break;
-      case cc.macro.KEY.d || cc.macro.KEY.right:
+      case cc.macro.KEY.d:
+      case cc.macro.KEY.right:
         this.movePressedButtons['RIGHT'] = true;
         break;
     }
@@ -40,11 +42,19 @@ export default class InGameKeyboardController extends KeyboardController {
       case cc.macro.KEY.space:
         this.cuphead.jump();
         break;
-      case cc.macro.KEY.a || cc.macro.KEY.left:
+
+      case cc.macro.KEY.a:
+      case cc.macro.KEY.left:
         delete this.movePressedButtons['LEFT'];
         break;
-      case cc.macro.KEY.d || cc.macro.KEY.right:
+
+      case cc.macro.KEY.d:
+      case cc.macro.KEY.right:
         delete this.movePressedButtons['RIGHT'];
+        break;
+
+      case cc.macro.KEY.escape:
+        cc.director.loadScene('Main_Menu');
         break;
     }
   }

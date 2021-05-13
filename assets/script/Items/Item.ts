@@ -23,6 +23,8 @@ export default abstract class Item extends cc.Component {
     if (other.tag == COLLISION_TAGS.PLAYER && !this.itemCounter.isFull) {
       this.itemCounter.increase();
       this.node.destroy();
+
+      this.node.getComponent(cc.AudioSource).play();
     }
   }
 
